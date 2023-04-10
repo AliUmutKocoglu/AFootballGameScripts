@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EpisodeParts : MonoBehaviour
+public class GoToMainMenu : MonoBehaviour
 {
-    public void menu()
+    public void ShowMainMenu(int sceneId)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }
